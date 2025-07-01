@@ -1,0 +1,11 @@
+#include<stdio.h>
+void main()
+{
+	float cost;
+
+	printf("Enter the cost value:");
+	scanf("%f",&cost);
+
+	cost-=30;
+	printf("Cost is:%d",cost);
+}
